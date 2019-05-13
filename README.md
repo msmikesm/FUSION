@@ -35,9 +35,9 @@ Or we can add the script to the environment variable.<br>
 Follow these steps:
 ```
 $ sudo mv fusion.sh /usr/local/bin
-$ sudo touch /.bash_aliases
-$ sudo sh -c "echo \"alias fusion='/usr/local/bin/fusion.sh'\" > /.bash_aliases"
-$ source /.bash_aliases
+$ sudo touch ~/.bash_aliases
+$ sudo sh -c "echo \"alias fusion='/usr/local/bin/fusion.sh'\" > ~/.bash_aliases"
+$ source ~/.bash_aliases
 ```
 
 And just type:
