@@ -1,6 +1,6 @@
 <div align="center">
 	<div>
-		<img width="300" src="media/fusion.svg" alt="Fusion">
+		<img width="300" src="media/fusionpng.png" alt="Fusion">
 	</div>
 	<br>
     <h1>FUSION<h1>
