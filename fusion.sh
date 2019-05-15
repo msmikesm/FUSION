@@ -18,14 +18,14 @@ then
     exit 1
 fi
 
-echo -e "${LCYAN}Enter a author of the project:${YELLOW}"
+echo -e "${LCYAN}Enter a description of the project:${YELLOW}"
 read description
 if [ "$description" = "" ]
 then
     description="New project"
 fi
 
-echo -e "${LCYAN}Enter a description of the project:${YELLOW}"
+echo -e "${LCYAN}Enter a author of the project:${YELLOW}"
 read author
 if [ "$author" = "" ]
 then
