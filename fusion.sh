@@ -684,7 +684,7 @@ echo $variablesSCSS > $projectName/src/sass/abstracs/_variables.scss
 echo $baseSCSS > $projectName/src/sass/base/_base.scss
 echo $typographySCSS > $projectName/src/sass/base/_typography.scss
 echo $containerSCSS > $projectName/src/sass/layout/_container.scss
-echo $mainSCSS > $projectName/src/sass/_main.scss
+echo $mainSCSS > $projectName/src/sass/main.scss
 
 # add content to ts files
 echo $indexTS > $projectName/src/ts/index.ts
