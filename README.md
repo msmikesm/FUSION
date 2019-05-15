@@ -12,7 +12,7 @@
 The construction process is supervised by Webpack and Babel.
 
 
-The script can be added to the **environment variable** and run with a single command.
+The script can be added to the **PATH** and run with a single command.
 
 ## Prerequisites
 You just need to have the [NodeJS](https://nodejs.org/en/) installed.
@@ -31,7 +31,7 @@ Then we can run it:
 $ ./fusion.sh
 ```
 
-Or we can add the script to the environment variable.<br>
+Or we can add the script to the PATH<br>
 Follow these steps:
 ```
 $ sudo mv fusion.sh /usr/local/bin
@@ -97,7 +97,7 @@ $ npm run build:server
                 +--| src
                 |  +--| sass
                 |  |   +--| abstracs
-                |  |   |  + _vriables.scss
+                |  |   |  + _variables.scss
                 |  |   |
                 |  |   +--| base
                 |  |   |  + _base.scss
