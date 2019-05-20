@@ -155,7 +155,11 @@ ${description}
         \"allowJs\": true,
     },
     \"exclude\": [
-        \"server\"
+        \"server\",
+        \"node_modules\",
+        \"dist\",
+        \"webpack.config.js\",
+        \"webpack.dev.js\"
     ]
 }" 
     "{
